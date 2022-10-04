@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa470e6f-7dc3-47d2-9391-7ed1962ef68f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeitorArquivoCSV.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/utfpr/td/tsi/veiculo/Concessionaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/utfpr/td/tsi/veiculo/LeitorArquivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/utfpr/td/tsi/veiculo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/utfpr/td/tsi/veiculo/Veiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/utfpr/td/tsi/veiculo/lista/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/utfpr/td/tsi/veiculo/lista/ListaEstatica.java" afterDir="false" />
-    </list>
+    <list default="true" id="aa470e6f-7dc3-47d2-9391-7ed1962ef68f" name="Changes" comment="Leitor de arquivo CSV" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +74,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664725026410</updated>
     </task>
+    <task id="LOCAL-00001" summary="Leitor de arquivo CSV">
+      <created>1664848920025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664848920025</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +94,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Leitor de arquivo CSV" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leitor de arquivo CSV" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
