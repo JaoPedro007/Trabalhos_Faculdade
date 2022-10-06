@@ -26,7 +26,8 @@ public class Main {
                 JOptionPane.showMessageDialog(null, result);
             }
             else if(operacao==2) {
-
+                Veiculo result = veiculos.analisarPreco(carros);
+                JOptionPane.showMessageDialog(null, result);
             }
             else if(operacao==3) {
                 encerrar=true;

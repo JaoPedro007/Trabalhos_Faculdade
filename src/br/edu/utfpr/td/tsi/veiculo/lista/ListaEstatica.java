@@ -24,4 +24,16 @@ public class ListaEstatica implements Lista {
         return null;
     }
 
+    public Veiculo analisarPreco(List<Veiculo> carros) {
+        Veiculo posicaoCarro = null;
+        double maiorPreco = 0;
+        for (Veiculo carro : carros ) {
+            if(carro.getPreco() >= maiorPreco) {
+                maiorPreco = carro.getPreco();
+                posicaoCarro = carro;
+            }
+        }
+        return posicaoCarro;
+    }
+
 }

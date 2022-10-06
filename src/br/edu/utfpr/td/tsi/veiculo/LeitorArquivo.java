@@ -1,8 +1,7 @@
 package br.edu.utfpr.td.tsi.veiculo;
 
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.Reader;
+import java.io.*;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,9 +18,9 @@ public class LeitorArquivo {
         List<Veiculo> carros = new ArrayList<>();
 
         try {
-            Reader in = new FileReader("carros.csv");
+            BufferedReader in = new BufferedReader(new FileReader("carros.csv"));
             Iterable<CSVRecord> records = CSVFormat.DEFAULT.parse(in);
-
+            in.readLine();
             Veiculo veiculo;
             for (CSVRecord record : records){
                 String ano = record.get(0);
@@ -29,12 +28,13 @@ public class LeitorArquivo {
                 String modelo = record.get(2);
                 String cor = record.get(3);
                 String placa = record.get(4);
-                String preco = record.get(5);
+                double preco = Double.parseDouble(record.get(5));
                 veiculo = new Veiculo(ano, marca, modelo, cor, placa, preco);
                 carros.add(veiculo);
             }
 
         } catch (IOException e) {
+            e.printStackTrace();
             System.out.println("Erro ao abrir o arquivo CSV");
         }
 

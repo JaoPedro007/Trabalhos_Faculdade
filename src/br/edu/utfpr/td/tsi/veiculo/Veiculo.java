@@ -1,7 +1,5 @@
 package br.edu.utfpr.td.tsi.veiculo;
 
-import java.util.Locale;
-
 public class Veiculo {
 
     private String ano;
@@ -9,9 +7,9 @@ public class Veiculo {
     private String modelo;
     private String cor;
     private String placa;
-    private String preco;
+    private double preco;
 
-    public Veiculo(String ano, String marca, String modelo, String cor, String placa, String preco) {
+    public Veiculo(String ano, String marca, String modelo, String cor, String placa, double preco) {
         this.ano = ano;
         this.marca = marca;
         this.modelo= modelo;
@@ -51,10 +49,10 @@ public class Veiculo {
     public void setPlaca(String placa) {
         this.placa = placa;
     }
-    public String getPreco() {
+    public double getPreco() {
         return preco;
     }
-    public void setPreco(String preco) {
+    public void setPreco(double preco) {
         this.preco = preco;
     }
     public String toString() {
