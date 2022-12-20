@@ -1,0 +1,15 @@
+.btn-pay {
+    cursor: pointer;
+    color: white;
+    padding: 1.4em;
+    border: none;
+    border-radius: 1em;
+    background-color: #4e4685;
+    transition: .2s;
+}
+
+.btn-pay:hover {
+    transform: scale(1.1);
+    background-color: #4a417d;
+    color: #60fff8;
+}

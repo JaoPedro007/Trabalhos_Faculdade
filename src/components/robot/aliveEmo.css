@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap');
+
+.alive-container {
+    background-color: rgba(216, 211, 211, 0.411);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.alive-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alive-content h1 {
+    color: #4e4685;
+}
+
+.alive-images {
+    padding-top: 2rem;
+}
+
+.alive-images img:first-child{
+    margin-right: 3rem;
+}
+
+.alive-text {
+    padding-top: 2.5em;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    width: 30%;
+    text-transform: uppercase;
+}
+
+.alive-textlist {
+    padding-top: 5rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.alive-list {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    list-style: none;
+    padding: 1em;
+    background-color: rgba(128, 128, 128, 0.288);
+    font-size: 1.5em;
+}
+
+.alive-list li {
+    padding: 0.5em;
+}

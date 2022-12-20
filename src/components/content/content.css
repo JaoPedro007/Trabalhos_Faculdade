@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap');
+
+.Container-content {
+    background-color: rgba(216, 211, 211, 0.411);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-tittle {
+    color: #4e4685;
+    margin-top: 2rem;
+}
+
+.emo-subtittle {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.emo-description { 
+    width: 35%;
+    font-size: 1.2em;
+}
+
+.emo-description h1 {
+    color: #4e4685;
+}
+
+.emo-description p {
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+}

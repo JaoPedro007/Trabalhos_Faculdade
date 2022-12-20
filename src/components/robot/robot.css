@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap');
+
+.robot-description {
+    color: white;
+    background: rgb(78,70,133);
+    background: linear-gradient(90deg, rgba(78,70,133,1) 0%, rgba(28,27,27,1) 100%);
+    font-weight: bold; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem;
+}
+
+.robot-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
